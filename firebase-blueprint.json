@@ -1,0 +1,43 @@
+{
+  "collections": {
+    "submissions": {
+      "name": "string",
+      "email": "string",
+      "company": "string?",
+      "phone": "string?",
+      "service": "string",
+      "budget": "string?",
+      "message": "string",
+      "createdAt": "timestamp"
+    },
+    "subscribers": {
+      "email": "string",
+      "createdAt": "timestamp"
+    },
+    "blog": {
+      "title": "string",
+      "slug": "string",
+      "author": "string",
+      "image": "string",
+      "category": "string",
+      "excerpt": "string",
+      "content": "string",
+      "publishedDate": "timestamp",
+      "readingTime": "string"
+    },
+    "caseStudies": {
+      "title": "string",
+      "client": "string",
+      "industry": "string",
+      "desc": "string",
+      "image": "string",
+      "slug": "string",
+      "result": "string",
+      "challenge": "string",
+      "solution": "string",
+      "technologies": "array",
+      "metrics": "map",
+      "createdAt": "timestamp"
+    }
+  }
+}

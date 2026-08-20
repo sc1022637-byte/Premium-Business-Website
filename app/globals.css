@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  
+  --color-brand-primary: #0A0A0A;
+  --color-brand-accent: #6366F1;
+  --color-accent-purple: #A855F7;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  
+  --radius-premium: 12px;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans tracking-tight text-white;
+  }
+  
+  body {
+    @apply font-sans leading-relaxed bg-[#0A0A0A] text-slate-300;
+  }
+}
+
+@layer utilities {
+  .accent-gradient {
+    background: linear-gradient(135deg, #6366F1 0%, #A855F7 100%);
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-12;
+  }
+  
+  .container-tight {
+    @apply max-w-5xl mx-auto px-12;
+  }
+}

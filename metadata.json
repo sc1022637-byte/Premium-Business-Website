@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Digital",
+  "description": "A premium technology and digital consulting agency website featuring bespoke software solutions, AI integration, and strategic digital transformation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
